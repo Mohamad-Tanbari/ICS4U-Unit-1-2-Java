@@ -49,10 +49,10 @@ public final class Joules {
 
             // Output
             System.out.println(mass + " kg of mass would produce " + energy
-            + " J of energy.");
+                              + " J of energy.");
         } catch (NumberFormatException error) {
             System.out.println("You entered an invalid input! "
-            + error.getMessage());
+                              + error.getMessage());
         }
 
         // Done
