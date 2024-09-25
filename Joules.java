@@ -1,18 +1,18 @@
-/**
- * E = mc² calculator.
- *
- * @author Mohamad T
- * @version 1.0
- * @since 2024-9-24
- */
+/*
+* E = mc² calculator.
+*
+* @author Mohamad T
+* @version 1.0
+* @since 2024-9-24
+*/
 
 import java.util.Scanner;
 
 /**
  * The main Joules class.
  */
+final class Joules {
 
-public final class Joules {
     /**
      * Speed of light variable.
      */
@@ -28,7 +28,6 @@ public final class Joules {
      *
      * @param args command line inputs
      */
-
     public static void main(String[] args) {
         // Create scanner object to read input from the user
         final Scanner scanner = new Scanner(System.in);
